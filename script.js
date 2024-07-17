@@ -2,14 +2,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const initialMessages = [
         "Hello there",
         "Why is it so dark here?",
-        "Can you switch on the light for a surprise awaiting for you?"
+        "Can you switch on the light??"
     ];
 
     const additionalMessages = [
         "Woah...!",
         "It's so pretty and purple here...",
         "Knock, Knock, knock..",
-        "There's someone at the door waiting for you"
+        "Open the door..."
     ];
 
     let messageIndex = 0;
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     setTimeout(() => showMessage(initialMessages, () => {
         bulbContainer.style.display = 'block';
         bulbMessageElement.classList.remove('hidden');
-        bulbMessageElement.textContent = "Click the bulb for a surprise!";
+        bulbMessageElement.textContent = "Click on the army bomb";
         bodyElement.style.backgroundImage = 'url("image.png")'; // Initial background image
     }), 1000);
 
