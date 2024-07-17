@@ -11,7 +11,10 @@ html {
   font-family: Arial, sans-serif;
   color: white;
   flex-direction: column;
-  background-size: cover; /* Ensure background image covers the entire area */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;/* Ensure background image covers the entire area */
   transition: background-image 1s ease-in-out;
   position: relative; /* Smooth transition for background image change */
 }
